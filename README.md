@@ -1,1 +1,1 @@
-# medical-planner
+# Medical planner
