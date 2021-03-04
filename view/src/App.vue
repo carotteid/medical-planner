@@ -1,18 +1,18 @@
 <template>
   <v-app>
-    <Header/>
+    <Index/>
   </v-app>
 </template>
 
 <script>
-import Header from '@/components/Header';
+import Index from '@/components/Index';
 
 export default {
   name: 'App',
 
   components: {
     //HelloWorld,
-    Home
+    Index
   },
 
   data: () => ({
