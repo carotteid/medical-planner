@@ -25,7 +25,7 @@
           </v-btn>
         </div>
         <v-img
-              src="../assets/signup.png"
+              src="../assets/login.png"
               contain="true"
               max-height="700"
               position="center"
@@ -51,7 +51,7 @@
             color="success"
             dark
           >
-            Log In
+            Register
             <v-icon
               dark
               right
@@ -65,7 +65,7 @@
           <br>
           <br>
           <br>
-          <p>If you don't have an account, <a href="/signup">Sign Up</a>.</p>
+          <p>If you have an account, <a href="/login">Log In</a>.</p>
         </v-col>
       </v-row>
     </v-container>

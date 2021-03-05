@@ -1,18 +1,24 @@
 <template>
   <v-app>
-    <Index/>
+    <Header/>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+    <Footer/>
   </v-app>
 </template>
 
 <script>
-import Index from '@/components/Index';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 export default {
   name: 'App',
 
   components: {
     //HelloWorld,
-    Index
+    Footer,
+    Header
   },
 
   data: () => ({
