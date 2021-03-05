@@ -1,4 +1,4 @@
-# medical_planner
+# view
 
 ## Project setup
 ```
