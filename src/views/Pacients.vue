@@ -6,6 +6,11 @@
     </v-col>
     <v-col cols="11">
       <v-content>
+        <v-data-table
+            :headers="headers"
+            :items="desserts"
+            class="elevation-1"
+        ></v-data-table>
       </v-content>
     </v-col>
   </v-row>
