@@ -4,6 +4,10 @@ import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Signup from '../views/Signup.vue'
 import Dashboard from '../views/Dashboard.vue'
+import Pacients from '../views/Pacients.vue'
+import AddP from '../views/Pacient/Add.vue'
+import Appointments from '../views/Appointment.vue'
+import AddA from '../views/Appoinment/Add.vue'
 
 Vue.use(VueRouter)
 
@@ -35,6 +39,26 @@ const routes = [
     path: '/dashboard',
     name: 'Dashboard',
     component: Dashboard
+  },
+  {
+    path: '/pacients',
+    name: 'Pacients',
+    component: Pacients
+  },
+  {
+    path: '/appointments',
+    name: 'Appointments',
+    component: Appointments
+  },
+  {
+    path: '/appointments/add',
+    name: 'Add',
+    component: AddA
+  },
+  {
+    path: '/pacients/add',
+    name: 'Add',
+    component: AddP
   },
 ]
 

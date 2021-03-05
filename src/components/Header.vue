@@ -5,6 +5,7 @@
       dense
       dark
     >
+    <p style="color:#00BFA6">//////</p>
       <v-img
           src="../assets/logotype.png"
           contain="true"

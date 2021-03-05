@@ -14,11 +14,11 @@
             class="ma-2"
             color="orange darken-2"
             dark
+            router-link to="/"
           >
             <v-icon
               dark
               left
-              href="/"
             >
               mdi-arrow-left
             </v-icon>Back
