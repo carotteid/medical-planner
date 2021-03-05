@@ -18,4 +18,4 @@ app.use(
 
 app.use("/api", routes);
 
-app.listen(5001, () => console.log("Server is up"));
+app.listen(5005, () => console.log("Server is up"));
