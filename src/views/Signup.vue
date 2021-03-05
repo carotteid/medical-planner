@@ -44,6 +44,26 @@
             label="password"
             @click:append="show1 = !show1"
           ></v-text-field>
+          <v-text-field
+            name="nombre"
+            label="nombre"
+          ></v-text-field>
+          <v-text-field
+            name="ap_p"
+            label="apellido paterno"
+          ></v-text-field>
+          <v-text-field
+            name="ap_m"
+            label="apellido materno"
+          ></v-text-field>
+          <v-text-field
+            name="tel"
+            label="telefono"
+          ></v-text-field>
+          <v-text-field
+            name="dir"
+            label="direccion"
+          ></v-text-field>
         </div>
          <div>
           <v-btn

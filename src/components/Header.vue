@@ -11,7 +11,6 @@
           max-height="50"
           position="left"
       ></v-img>
-
     </v-app-bar>
   </div>
 </template>
