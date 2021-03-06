@@ -65,9 +65,6 @@
               ></v-calendar>
             </v-sheet>
           </div>
-          <br>
-          <!--TODO: Agregar mes-->
-          <h2 align="center">Mes</h2>
         </v-sheet>
       </v-container>
     </v-col>

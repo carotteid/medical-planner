@@ -30,7 +30,7 @@
         </v-list-item>
         </v-list>
         <v-list>
-              <v-list-item class="mb-14">
+              <v-list-item class="mb-12">
                 <v-list-item-action>
                 </v-list-item-action>
             </v-list-item >
@@ -44,19 +44,19 @@
         </v-list-item>
         </v-list>
         <v-list>
-              <v-list-item class="mb-16">
+              <v-list-item class="mb-12">
                 <v-list-item-action>
                 </v-list-item-action>
             </v-list-item >
         </v-list>
         <v-list>
-              <v-list-item class="mb-14">
+              <v-list-item class="mb-12">
                 <v-list-item-action>
                 </v-list-item-action>
             </v-list-item >
         </v-list>
         <v-list  style="position: absolute; bottom:0" class="ml-10" flat>
-          <v-list-item  router to="/signout">
+          <v-list-item  router to="#">
                 <v-list-item-action>
                     <v-icon right>fas fa-sign-out-alt</v-icon>
                 </v-list-item-action>

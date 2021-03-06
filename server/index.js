@@ -5,6 +5,7 @@ const cors = require("cors");
 
 const app = express();
 
+
 app.use(cors());
 
 app.use(bodyParser.json({ limit: "50mb" }));
@@ -16,6 +17,13 @@ app.use(
   })
 );
 
+app.use('/', (req, res) => {
+  res.json({"result": "success"});
+});
+
+const PORT = process.env.PORT || 3005;
+//app.listen(PORT);
+
 app.use("/api", routes);
 
-app.listen(5009, () => console.log("Server is up"));
+app.listen(PORT, () => console.log("Server is up ${PORT}"));

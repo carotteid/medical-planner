@@ -70,6 +70,7 @@
             class="ma-2"
             color="success"
             dark
+            href="/login"
           >
             Register
             <v-icon

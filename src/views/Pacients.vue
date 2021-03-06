@@ -5,6 +5,21 @@
       <Navbar/>
     </v-col>
     <v-col cols="11">
+        <br>
+        <v-content align="right">
+        <v-btn
+        color="#00BFA6"
+        elevation="2"
+        fab
+        x-large
+        align="right"
+        dark
+        href="/appointments/add"
+      >
+      <v-icon>fas fa-plus</v-icon>
+      </v-btn>
+      </v-content>
+      <br>
       <v-content>
         <v-data-table
             :headers="headers"

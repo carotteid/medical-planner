@@ -50,6 +50,7 @@
             class="ma-2"
             color="success"
             dark
+            href="/dashboard"
           >
             Log In
             <v-icon
